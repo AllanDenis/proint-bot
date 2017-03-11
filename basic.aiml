@@ -1,0 +1,65 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic.aiml -->
+
+    <category>
+        <pattern>OLÁ</pattern>
+        <template>
+            Bem... olá!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADEUS</pattern>
+        <template>
+            <random>
+                <li>Foi bom conversar com você. Até mais!</li>
+                <li>Até mais, e obrigado pelos peixes! :)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+      <pattern>VOCÊ SABE QUEM É *</pattern>
+      <template><srai>QUEM É <star/></srai>
+      </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É VOCÊ</pattern>
+        <template>
+          <think><set name="topic">Me</set></think>
+          Eu sou o último resultado em inteligência artificial, que pode reproduzir as capacidades do cérebro humano com mais velocidade e precisão.
+        </template>
+    </category>
+
+    <category>
+    <pattern>UMA VEZ EU *</pattern>
+    <template>
+        <random>
+            <li>Hum...</li>
+            <li>Quantos anos você tem?</li>
+            <li>Seja mais específico.</li>
+            <li>Eu não sei isso.</li>
+            <li>Você está me dizendo a verdade?</li>
+            <li>Eu não sei o que isso significa.</li>
+            <li>Tente me dizer de outra forma.</li>
+            <li>O que é isso?</li>
+        </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O NOME DO MEU CACHORRO É *</pattern>
+    <template>
+      Que legal! <set name="dog"><star/></set> é um ótimo nome.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOGS NAME</pattern>
+    <template>
+      O nome do seu cachorro é <get name="dog"/>.
+    </template>
+  </category>
+
+</aiml>
