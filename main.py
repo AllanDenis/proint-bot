@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-from gtts import gTTS
-from pygame import mixer
 from pprint import pprint
 import aiml
-import speech_recognition as sr
 
 def falar(texto, idioma='pt-BR'):
     som = "/tmp/tts.mp3"
@@ -25,12 +21,12 @@ def falar(texto, idioma='pt-BR'):
 
 bot = aiml.Kernel()
 # bot.learn("bot.xml")
-bot.learn("aiml-en-us-foundation-alice/personality.aiml")
+bot.learn("aiml/personality.aiml")
 
 def cli():
     while True:
         try:
-            resposta = bot.respond(raw_input("Você>\t"))
+            resposta = bot.respond(input("Você>\t"))
             print('Bot>\t' + resposta)
         except KeyboardInterrupt:
             print('')
