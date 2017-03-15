@@ -20,7 +20,7 @@
 
     <category>
       <pattern>VOCÊ SABE QUEM É *</pattern>
-      <template><srai>QUEM É <star/></srai>
+      <template><srai>UMA VEZ EU *</srai>
       </template>
     </category>
 
@@ -56,7 +56,7 @@
   </category>
 
   <category>
-    <pattern>WHAT IS MY DOGS NAME</pattern>
+    <pattern>QUAL É O NOME DO MEU CACHORRO</pattern>
     <template>
       O nome do seu cachorro é <get name="dog"/>.
     </template>
