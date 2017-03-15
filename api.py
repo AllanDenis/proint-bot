@@ -1,4 +1,5 @@
-from main import *
+# -*- coding: utf-8 -*-
+from main import bot
 from flask import Flask, jsonify
 from werkzeug.exceptions import default_exceptions, HTTPException
 
@@ -30,15 +31,17 @@ def make_json_app(import_name, **kwargs):
     return app
 
 app = make_json_app(__name__)
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
+app.config['JSON_AS_ASCII'] = False
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return jsonify("Olá, mundo!")
 
 @app.route("/chat/<pergunta>")
 def resposta(pergunta):
     resposta = {'resposta':bot.respond(pergunta)}
-    return(jsonify(resposta))
+    return jsonify(resposta)
 
 if __name__ == "__main__":
     app.run()

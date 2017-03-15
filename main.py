@@ -24,23 +24,19 @@ def falar(texto, idioma='pt-BR'):
         print('Erro: ' + str(e))
 
 bot = aiml.Kernel()
-bot.learn("basic.aiml")
-# while True:
-#     try:
-#
-#         resposta = bot.respond(raw_input("Você>\t"))
-#         falar(resposta)
-#         print('Bot>\t' + resposta)
-#     except KeyboardInterrupt:
-#         print('')
-#         resposta = bot.respond('ADEUS')
-#         falar(resposta)
-#         print(resposta)
-        # exit(0)
-    # except Exception as e:
-    #     if(e.message == 'No text to speak'):
-    #         print
+# bot.learn("bot.xml")
+bot.learn("aiml-en-us-foundation-alice/personality.aiml")
 
-# while True: falar(raw_input())
+def cli():
+    while True:
+        try:
+            resposta = bot.respond(raw_input("Você>\t"))
+            print('Bot>\t' + resposta)
+        except KeyboardInterrupt:
+            print('')
+            resposta = bot.respond('ADEUS')
+            print(resposta)
 
-# obtain audio from the microphone
+
+if __name__ == "__main__":
+    cli()
