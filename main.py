@@ -5,7 +5,7 @@ bot = aiml.Kernel()
 bot.learn("aiml/personality.aiml")
 
 def cli():
-"""Interface de linha de comando para testar o bot."""
+    """Interface de linha de comando para testar o bot."""
     while True:
         try:
             resposta = bot.respond(input("Você>\t"))

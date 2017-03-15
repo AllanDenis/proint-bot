@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from main import bot
 from flask import Flask, jsonify
+from flask_compress import Compress
 from werkzeug.exceptions import default_exceptions, HTTPException
 
 __all__ = ['make_json_app']
@@ -25,7 +26,7 @@ def make_json_app(import_name, **kwargs):
 
     app = Flask(import_name, **kwargs)
 
-    for code in default_exceptions.iterkeys():
+    for code in default_exceptions.items():
         app.error_handler_spec[None][code] = make_json_error
 
     return app
@@ -33,6 +34,7 @@ def make_json_app(import_name, **kwargs):
 app = make_json_app(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 app.config['JSON_AS_ASCII'] = False
+Compress(app)
 
 @app.route("/")
 def hello():
