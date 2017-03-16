@@ -1,3 +1,4 @@
+#! env/bin/python
 # -*- coding: utf-8 -*-
 from main import bot
 from flask import Flask, jsonify
@@ -47,5 +48,7 @@ def resposta(pergunta):
 
 if __name__ == '__main__':
     app.run(
+        host='0.0.0.0',
+        port=5000,
         debug=True,
-        host='0.0.0.0')
+        )
