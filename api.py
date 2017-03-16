@@ -3,6 +3,7 @@
 from main import bot
 from flask import Flask, jsonify
 from flask_compress import Compress
+from flask_cors import CORS
 from werkzeug.exceptions import default_exceptions, HTTPException
 
 __all__ = ['make_json_app']
@@ -36,6 +37,7 @@ app = make_json_app(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 app.config['JSON_AS_ASCII'] = False
 Compress(app)
+CORS(app)
 
 @app.route('/')
 def hello():
@@ -43,7 +45,7 @@ def hello():
 
 @app.route('/chat/<pergunta>')
 def resposta(pergunta):
-    resposta = {'resposta':bot.respond(pergunta)}
+    resposta = {'resposta': bot.respond(pergunta)}
     return jsonify(resposta)
 
 if __name__ == '__main__':

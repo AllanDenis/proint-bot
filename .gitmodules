@@ -1,6 +1,6 @@
 [submodule "angular-chat"]
 	path = angular-chat
 	url = https://github.com/juslop/angular-chat.git
-[submodule "angularjs-chat"]
-	path = angularjs-chat
-	url = https://github.com/stephenlb/angularjs-chat.git
+[submodule "annyang"]
+	path = annyang
+	url = https://github.com/TalAter/annyang.git
