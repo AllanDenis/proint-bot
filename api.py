@@ -1,8 +1,9 @@
 #! env/bin/python
 # -*- coding: utf-8 -*-
-from main import bot
+from main import bot, falar
 from flask import Flask, jsonify
 from flask_compress import Compress
+from flask_cors import CORS
 from werkzeug.exceptions import default_exceptions, HTTPException
 
 __all__ = ['make_json_app']
@@ -13,7 +14,7 @@ def make_json_app(import_name, **kwargs):
 
     (from: http://flask.pocoo.org/snippets/83/)
     All error responses that you don't specifically
-    manage yourself will have application/json content
+    manage yourself will have applicatio0,0n/json content
     type, and will contain JSON like this (just an example):
 
     { 'message': '405: Method Not Allowed' }
@@ -36,6 +37,7 @@ app = make_json_app(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 app.config['JSON_AS_ASCII'] = False
 Compress(app)
+CORS(app)
 
 @app.route('/')
 def hello():
@@ -43,7 +45,11 @@ def hello():
 
 @app.route('/chat/<pergunta>')
 def resposta(pergunta):
-    resposta = {'resposta':bot.respond(pergunta)}
+    resposta = bot.respond(pergunta)
+    resposta = {
+                    'resposta': resposta,
+                    'url': falar(resposta['resposta'])
+                }
     return jsonify(resposta)
 
 if __name__ == '__main__':

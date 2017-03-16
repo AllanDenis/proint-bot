@@ -1,7 +1,20 @@
 import aiml
+from gtts import gTTS as tts
+import random, string
 
 bot = aiml.Kernel()
 bot.learn("aiml/personality.aiml")
+
+def nomeRandom(length=4):
+    return ''.join(random.choice(string.lowercase) for i in range(length))
+
+
+def falar(texto):
+    fala = tts(text=texto, lang='en')
+    nome = 'tmp/' + nomeRandom() + '.mp3'
+    fala.save(nome)
+    return nome
+
 
 def cli():
     """Interface de linha de comando para testar o bot."""
