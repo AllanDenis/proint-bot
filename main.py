@@ -10,8 +10,6 @@ def nomeRandom(length=4):
 
 
 def falar(texto,lang='pt-BR'):
-    if texto == '':
-        texto = 'Eita!!!'
     fala = tts(text=texto, lang=lang)
     nome = 'tmp/' + nomeRandom() + '.mp3'
     fala.save(nome)
