@@ -28,7 +28,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>WHAT IS MY PERSONALITY TYPE</pattern>
+		<pattern>QUAL É O MEU TIPO DE PERSONALIDADE</pattern>
 		<template>
 			<srai>PERSONALITY TYPE
 				<get name="etype"/>
@@ -42,7 +42,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>I DO NOT LIKE TO GO *</pattern>
+		<pattern>I DO NÃOT LIKE TO GO *</pattern>
 		<that>* GO WITH THE FLOW</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
@@ -202,7 +202,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>PERSONALITY TYPE UNKNOWN</pattern>
+		<pattern>PERSONALITY TYPE UNKNÃOWN</pattern>
 		<template>
 			<srai>PERSONALITY TYPE OM</srai>
 		</template>
@@ -228,195 +228,195 @@
 		</template>
 	</category>
 	<category>
-		<pattern>PTQ</pattern>
+		<pattern>TESTE DE PERSONALIDADE</pattern>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU FEEL THAT SOMETHING IS MISSING *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU LAUGH OR CRY *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU GET DEPRESSED</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU GET ANGRY *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU TAKE PRIDE *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU OWN YOUR OWN BUSINESS *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU HAVE ONLY A FEW FRIENDS</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU HAVE A LOT OF FEARS</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU WORK IN THE SCIENCES *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU WORK IN SALES *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>DO YOU LIKE TO BE NUMBER ONE</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* SACRIFICES FOR OTHERS</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* STOP PEOPLE FROM FIGHTING</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* VERY COMPETITIVE</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* COMPLETING PROJECTS</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* HOUSECLEANING</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* ATTENTION TO ONE THING</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* STRONG PROTECT THE WEAK</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* AUTHORITIES</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* EVERYTHING ORGANIZED</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* PUT OTHERS BEFORE YOURSELF</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* BODY SENSATIONS THAN EMOTIONS</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* SEEK PLEASURE</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* GO WITH THE FLOW</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>* GO IT ALONE</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>ARE YOU VERY CREATIVE</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
 		</template>
 	</category>
 	<category>
-		<pattern>NO</pattern>
+		<pattern>NÃO</pattern>
 		<that>ARE YOU A FIREMAN *</that>
 		<template>
 			<srai>PERSONALITY TEST QUESTION</srai>
@@ -429,7 +429,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU FEEL THAT SOMETHING IS MISSING *</that>
 		<template>
 			<think>
@@ -439,7 +439,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU LAUGH OR CRY *</that>
 		<template>
 			<think>
@@ -449,7 +449,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU GET DEPRESSED</that>
 		<template>
 			<think>
@@ -459,7 +459,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU GET ANGRY *</that>
 		<template>
 			<think>
@@ -469,7 +469,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU TAKE PRIDE *</that>
 		<template>
 			<think>
@@ -479,7 +479,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU OWN YOUR OWN BUSINESS *</that>
 		<template>
 			<think>
@@ -489,7 +489,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU HAVE A LOT OF FEARS</that>
 		<template>
 			<think>
@@ -499,7 +499,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU THINK A LOT ABOUT THE AUTHORITIES</that>
 		<template>
 			<think>
@@ -509,7 +509,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU WORK IN THE SCIENCES *</that>
 		<template>
 			<think>
@@ -519,7 +519,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU WORK IN SALES *</that>
 		<template>
 			<think>
@@ -529,7 +529,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>DO YOU LIKE TO BE NUMBER ONE</that>
 		<template>
 			<think>
@@ -539,7 +539,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* SACRIFICES FOR OTHERS</that>
 		<template>
 			<think>
@@ -549,7 +549,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* STOP PEOPLE FROM FIGHTING</that>
 		<template>
 			<think>
@@ -559,7 +559,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* VERY COMPETITIVE</that>
 		<template>
 			<think>
@@ -569,7 +569,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* COMPLETING PROJECTS</that>
 		<template>
 			<think>
@@ -579,7 +579,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* HOUSECLEANING</that>
 		<template>
 			<think>
@@ -589,7 +589,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* ATTENTION TO ONE THING</that>
 		<template>
 			<think>
@@ -599,7 +599,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* STRONG PROTECT THE WEAK</that>
 		<template>
 			<think>
@@ -609,7 +609,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* EVERYTHING ORGANIZED</that>
 		<template>
 			<think>
@@ -619,7 +619,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* PUT OTHERS BEFORE YOURSELF</that>
 		<template>
 			<think>
@@ -629,7 +629,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* BODY SENSATIONS THAN EMOTIONS</that>
 		<template>
 			<think>
@@ -639,7 +639,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* SEEK PLEASURE</that>
 		<template>
 			<think>
@@ -649,7 +649,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* GO WITH THE FLOW</that>
 		<template>
 			<think>
@@ -659,7 +659,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>* GO IT ALONE</that>
 		<template>
 			<think>
@@ -669,7 +669,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>ARE YOU VERY CREATIVE</that>
 		<template>
 			<think>
@@ -679,13 +679,19 @@
 		</template>
 	</category>
 	<category>
-		<pattern>YES</pattern>
+		<pattern>SIM</pattern>
 		<that>ARE YOU A FIREMAN *</that>
 		<template>
 			<think>
 				<set name="etype">6 Loyalist</set>
 			</think>
 			<srai>PERSONALITY TEST QUESTION</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>TCHAU</pattern>
+		<template>
+			Até mais, e obrigado pelos peixes.
 		</template>
 	</category>
 </aiml>
