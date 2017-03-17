@@ -45,12 +45,16 @@ def hello():
 
 @app.route('/chat/<pergunta>')
 def resposta(pergunta):
+<<<<<<< HEAD
     resposta = bot.respond(pergunta)
     resposta = 'Ops!' if resposta == '' else resposta
     resposta = {
                     'resposta': resposta,
                     'url': falar(resposta)
                 }
+=======
+    resposta = {'resposta': bot.respond(pergunta)}
+>>>>>>> 2f345486b99c7dfe71abe024be2a9f2af8854b80
     return jsonify(resposta)
 
 if __name__ == '__main__':
