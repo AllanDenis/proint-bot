@@ -689,9 +689,9 @@
 		</template>
 	</category>
 	<category>
-		<pattern>BYE</pattern>
+		<pattern>TCHAU</pattern>
 		<template>
-			See you later.
+			Até mais, e obrigado pelos peixes.
 		</template>
 	</category>
 </aiml>

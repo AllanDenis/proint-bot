@@ -46,15 +46,15 @@ def hello():
 @app.route('/chat/<pergunta>')
 def resposta(pergunta):
     resposta = bot.respond(pergunta)
+    resposta = 'Ops!' if resposta == '' else resposta
     resposta = {
                     'resposta': resposta,
-                    'url': falar(resposta['resposta'])
+                    'url': falar(resposta)
                 }
     return jsonify(resposta)
 
 if __name__ == '__main__':
     app.run(
-        host='0.0.0.0',
-        port=5000,
-        debug=True,
-        )
+            host='0.0.0.0',
+            port=5000,
+            debug=True,)

@@ -6,11 +6,13 @@ bot = aiml.Kernel()
 bot.learn("aiml/personality.aiml")
 
 def nomeRandom(length=4):
-    return ''.join(random.choice(string.lowercase) for i in range(length))
+    return ''.join([random.choice('abcdefghijklmnopqrstuvwxyz') for i in range(length)])
 
 
-def falar(texto):
-    fala = tts(text=texto, lang='en')
+def falar(texto,lang='pt-BR'):
+    if texto == '':
+        texto = 'Eita!!!'
+    fala = tts(text=texto, lang=lang)
     nome = 'tmp/' + nomeRandom() + '.mp3'
     fala.save(nome)
     return nome
