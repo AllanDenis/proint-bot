@@ -39,6 +39,6 @@ smoke-zephyr==1.1.0
 termineter==0.2.6
 thefuck==3.11
 unattended-upgrades==0.1
-urllib3==1.17
+urllib3==1.26.5
 virtualenv==15.0.3
 Werkzeug==0.11.11
