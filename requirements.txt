@@ -37,7 +37,7 @@ requests==2.11.1
 six==1.10.0
 smoke-zephyr==1.1.0
 termineter==0.2.6
-thefuck==3.11
+thefuck==3.31
 unattended-upgrades==0.1
 urllib3==1.17
 virtualenv==15.0.3
